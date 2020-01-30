@@ -85,4 +85,4 @@ production:
   host: localhost
   database: test_app2_production
   username: test_app2
-  password: <%= ENV['TEST_APP2_DATABASE_PASSWORD'] %>
+  password: test_app2
