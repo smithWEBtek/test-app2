@@ -2,5 +2,6 @@ Rails.application.routes.draw do
   resources :cats
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
-  root 'static#home'
+  # root 'static#home'
+  root 'cats#index'
 end
